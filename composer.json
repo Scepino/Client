@@ -1,0 +1,19 @@
+{
+    "name": "scepino/client",
+    "description": "The Scepino client",
+    "keywords": ["rbac", "authorization", "access-control"],
+    "type": "package",
+    "license": "EUPL-1.1",
+	"homepage": "https://github.com/scepino/client",
+    "authors": [
+        {
+            "name": "Jacco-V",
+            "role": "Developer",
+			"homepage": "https://netsilik.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": { "Scepino\\Client\\": "app/src/" }
+    }
+}
