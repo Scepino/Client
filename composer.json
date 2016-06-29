@@ -13,6 +13,9 @@
         }
     ],
     "minimum-stability": "dev",
+	"require": {
+		"php": ">=5.5.9"
+	},
     "autoload": {
         "psr-4": { "Scepino\\Client\\": "app/src/" }
     }
